@@ -1,0 +1,25 @@
+{
+  "name": "account",
+  "version": "0.0.0",
+  "description": "Provide a skeleton interface for user account registration and login",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "''"
+  },
+  "keywords": [
+    "account",
+    "user",
+    "registration",
+    "login"
+  ],
+  "author": "Noah Isaacson",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
