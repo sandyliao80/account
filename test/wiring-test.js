@@ -17,6 +17,10 @@ describe('Account', function () {
     should.exist(account.serializeUser)
     account.serializeUser.should.be.a('function')
   })
+  it('should have remove function in exports', function () {
+    should.exist(account.removeUser)
+    account.removeUser.should.be.a('function')
+  })
 
 
   it('should give error if interface login function is called', function (done) {
@@ -42,6 +46,14 @@ describe('Account', function () {
   })
   it('should give error if interface serializeUser is called', function (done) {
     account.serializeUser({}, function (err, reply) {
+      should.exist(err)
+      err.error.should.eql('not implemented')
+      done()
+    })
+  })
+
+  it('should give error if interface remove is called', function (done) {
+    account.removeUser({}, function (err, reply) {
       should.exist(err)
       err.error.should.eql('not implemented')
       done()

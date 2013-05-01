@@ -1,6 +1,6 @@
 {
   "name": "account",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Provide a skeleton interface for user account login, registration, serialization, and deserialization",
   "main": "index.js",
   "directories": {

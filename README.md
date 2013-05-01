@@ -20,4 +20,5 @@ All interfaces must implement all methods in index.js. These methods are as foll
 * `register`
 * `serializeUser`
 * `deserializeUser`
+* `removeUser`
 

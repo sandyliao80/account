@@ -26,5 +26,12 @@ module.exports = {
       error: 'not implemented',
       stack: new Error().stack
     })
+  },
+  removeUser: function(data, cb) {
+    return cb({
+      message: 'removeUser failed',
+      error: 'not implemented',
+      stack: new Error().stack
+    })
   }
 }
